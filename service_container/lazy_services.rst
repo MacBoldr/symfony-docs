@@ -31,11 +31,6 @@ until you interact with the proxy in some way.
     In PHP versions prior to 8.0 lazy services do not support parameters with
     default values for built-in PHP classes (e.g. ``PDO``).
 
-.. versionadded:: 6.2
-
-    Starting from Symfony 6.2, you don't have to install any package (e.g.
-    ``symfony/proxy-manager-bridge``) in order to use the lazy service instantiation.
-
 Configuration
 -------------
 
